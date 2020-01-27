@@ -1,0 +1,85 @@
+body {
+  font-size: medium;
+}
+.navbar {
+  position: relative;
+  width: 70%;
+  float: none;
+  margin: 0 auto;
+  top: 10%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: red;
+}
+.navLink {
+  background-color: black;
+  width: 11.11%;
+}
+.navbar > li {
+  display: table-cell;
+  text-decoration: none;
+  height: 40px;
+  background-color: bisque;
+}
+.container {
+  display: grid;
+  margin: 0;
+  grid-template-columns: 1fr 1400px 1fr;
+}
+.mainPage {
+  grid-row: 1;
+  grid-column: 2;
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.mainMessage {
+  grid-row: 1;
+  grid-column: 1 / span 4;
+  height: 670px;
+  background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  background-position-y: -645px;
+}
+.promoOne {
+  grid-row: 2;
+  grid-column: 1 / span 1;
+  height: 200px;
+  background-image: url("https://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg");
+  background-repeat: no-repeat;
+}
+.promoTwo {
+  grid-row: 2;
+  grid-column: 2 / span 1;
+  height: 200px;
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg");
+  background-repeat: no-repeat;
+}
+.promoThree {
+  grid-row: 2;
+  grid-column: 3 / span 1;
+  height: 200px;
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg");
+  background-repeat: no-repeat;
+}
+.promoFour {
+  grid-row: 2;
+  grid-column: 4 / span 1;
+  height: 200px;
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg");
+  background-repeat: no-repeat;
+}
+
+.footerContainer {
+  grid-row: 3;
+  grid-column: 1 / span 4;
+  font-size: 0.75em;
+}
+
+.footerAddressCopyright {
+  float: right;
+}
+.footerLinks {
+  float: left;
+  vertical-align: middle;
+}
