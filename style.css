@@ -1,5 +1,17 @@
 body {
   font-size: medium;
+  color: #6e6e6e;
+}
+a {
+  color: #08c;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#mainMessage {
+  position: relative;
+  top: 215px;
 }
 .navbar {
   position: relative;
@@ -14,13 +26,10 @@ body {
 .navLink {
   background-color: black;
   width: 11.11%;
+  border: 2px solid white;
+  display: inline-block;
 }
-.navbar > li {
-  display: table-cell;
-  text-decoration: none;
-  height: 40px;
-  background-color: bisque;
-}
+
 .container {
   display: grid;
   margin: 0;
@@ -33,7 +42,7 @@ body {
   grid-gap: 2px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.mainMessage {
+.mainMessageContainer {
   grid-row: 1;
   grid-column: 1 / span 4;
   height: 670px;
@@ -74,12 +83,55 @@ body {
   grid-row: 3;
   grid-column: 1 / span 4;
   font-size: 0.75em;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr 1fr;
 }
 
-.footerAddressCopyright {
-  float: right;
+.footerAddress {
+  grid-row: 1;
+  grid-column: 2;
+  margin-bottom: 15px;
 }
+
+.footerCopyright {
+  grid-row: 2;
+  grid-column: 2;
+}
+
 .footerLinks {
-  float: left;
-  vertical-align: middle;
+  grid-row: 1;
+  grid-column: 3;
+  vertical-align: top;
+}
+
+.linkWithLeftBorder {
+  border-left: 1px solid #ccc;
+  padding-left: 5px;
+}
+
+.imageMessageOne {
+  background-image: url("https://web.archive.org/web/20140301004336im_/http://images.apple.com/home/images/your_verse_title_small.png");
+  background-repeat: no-repeat;
+  width: 980px;
+  height: 75px;
+  margin: 0 auto;
+}
+.imageMessageTwo {
+  background-image: url("https://web.archive.org/web/20140301004340im_/http://images.apple.com/home/images/your_verse_subhead_small.png");
+  background-repeat: no-repeat;
+  width: 980px;
+  height: 75px;
+  margin: 20px auto;
+}
+.imageMessageThree {
+  margin-top: 10px;
+  background-image: url("https://web.archive.org/web/20140301004341im_/http://images.apple.com/home/images/cta_your_verse_27pt.png");
+  background-repeat: no-repeat;
+  width: 980px;
+  height: 32px;
+  margin: 0 auto;
+}
+.imageMessageThree:hover {
+  background-position-y: -32px;
 }
