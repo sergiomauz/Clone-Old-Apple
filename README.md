@@ -22,6 +22,6 @@
 
 Sergio Mauricio Zambrano.
 
-- Github: [@githubhandle](https://github.com/sergiomauz)
-- Twitter: [@twitterhandle](https://twitter.com/sergiomauz)
-- Linkedin: [linkedin](https://www.linkedin.com/in/sergiozambranojove/)
+- Github: [@sergiomauz](https://github.com/sergiomauz)
+- Twitter: [@sergiomauz](https://twitter.com/sergiomauz)
+- Linkedin: [@sergiomauz](https://www.linkedin.com/in/sergiomauz/)
